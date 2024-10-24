@@ -20,9 +20,9 @@ void render::draw(){
 	//drawer.draw_rect(200,200,40,140,blue_color);
 	//drawer.fill_circle(155,155,50,magenta_color);
 	//drawer.draw_ellipse(400,400,70,30,red_color);
-	drawer.draw_poly(test_pts,{194,12,244,255});
+	drawer.draw_polygon(test_pts,{194,12,244,255});
 	
-	
+	//drawer.fill_triangle(100,100,300,400,100,400,magenta_color);
 	//drawer.draw_line(500,500,100,100,green_color);
 	
 	SDL_RenderPresent(renderer);
@@ -32,13 +32,7 @@ void render::draw(){
 int main(){
 	srand (time(NULL));
 	
-	test_pts.push_back(point2<int>{144,70});
-	test_pts.push_back(point2<int>{700,70});
-	test_pts.push_back(point2<int>{120,80});
-	test_pts.push_back(point2<int>{300,140});
-	test_pts.push_back(point2<int>{99,66});
-	
-	
+	//test_pts.push_back(point2<int>{10,10});
 	for(int i =0; i < 4;i++){
 		int x = 100+rand()%501;
 		int y = 100+rand()%501;
