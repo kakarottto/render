@@ -1,0 +1,17 @@
+g++ program.cpp -w -lSDL2 -o program
+
+
+apt-get install libsdl2-dev
+or
+yum install SDL2-devel
+
+some resources to check:
+https://github.com/ssloy/tinyrenderer/wiki
+https://github.com/miloyip/line
+https://www.geeksforgeeks.org/boundary-fill-algorithm/
+https://gamedev.stackexchange.com/questions/178181/how-can-i-draw-filled-triangles-in-c
+https://github.com/ygutgutia/OpenGL-Computer-Graphics
+https://stackoverflow.com/questions/8235650/how-to-draw-a-polygon-in-c-such-that-the-lines-do-not-intersect
+https://www.geeksforgeeks.org/convex-hull-algorithm-in-cpp/
+
+the last one aint my idea for draw_polygon, but aint bad to have it
